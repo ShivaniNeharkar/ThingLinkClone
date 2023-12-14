@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .aframe-container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 1;
+  }
+  
+  
+  /* Style for the buttons */
+  button {
+    margin-top: 10px; /* Add margin to separate buttons from other content */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4CAF50; /* Green color */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2d6830; /* Darker green color on hover */
+  }
+  
+  .button-link {
+    text-decoration: none;
+  }
+  
+  .button-link button {
+    background-color: #3498db; /* Blue color for the link button */
+  }
+  
+  .button-link button:hover {
+    background-color: #1c547a; /* Darker blue color on hover for the link button */
+  }
+  
+  /* Add margin between the Submit and Reset buttons */
+  button[type="submit"] {
+    margin-right: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #ffffff; /* Blue color for the label */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4CAF50; /* Green color for border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8f8f8; /* Light gray background color */
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db; /* Blue color on focus */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Light blue shadow on focus */
+  }

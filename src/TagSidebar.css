@@ -1,0 +1,80 @@
+/* TagSidebar.css */
+
+.container {
+    display: flex;
+    position: relative;
+  }
+  
+  .toggle-button {
+    background-color: #5b5b5b;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+  }
+  
+  .sidebar {
+    background-color: #5b5b5b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the items vertically */
+    align-items: center;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .sidebar-visible {
+    left: 0;
+  }
+  
+  .sidebar-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #333;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .close-icon:hover {
+    color: #333;
+  }
+  
+  .plus-icon::before {
+    content: '\002B'; /* Unicode character for plus */
+    font-size: 1.5em;
+  }
+  
+  .tick-icon::before {
+    content: '\2713'; /* Unicode character for tick/checkmark */
+    font-size: 1.5em;
+  }
+  

@@ -2,4 +2,6 @@
 
 "Thinglink Clone" aims to enhance user experience by implementing a feature to save edited photos for future reference. This upcoming addition will further streamline the workflow, allowing users to easily revisit and share their customized panoramic images. Stay tuned as "Thinglink Clone" continues to evolve, offering an intuitive and feature-rich experience for panoramic photo enthusiasts.
 
+Demo: https://shivanineharkar.github.io/ThingLinkClone/
+
 https://github.com/ShivaniNeharkar/ThingLinkClone/assets/43198273/b3d6b489-8188-4a93-b2f8-a7376dded9d0
